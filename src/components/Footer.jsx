@@ -15,8 +15,7 @@ const Footer = () => {
               <span className="font-bold text-xl">Musana App</span>
             </div>
             <p className="text-gray-300 mb-4">
-              Gospel Extension Ministries is dedicated to spreading the Gospel of Jesus Christ 
-              and building a strong community of believers under the leadership of Pastor Musana.
+              Gospel Extension Ministries is dedicated to extending the Gospel of Jesus Christ unto the Nations under the leadership of Bishop Henry Musana.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-sky-400 transition-colors">
@@ -25,9 +24,9 @@ const Footer = () => {
               <a href="#" className="text-gray-300 hover:text-sky-400 transition-colors">
                 <Twitter className="w-5 h-5" />
               </a>
-              <a href="#" className="text-gray-300 hover:text-sky-400 transition-colors">
+              {/* <a href="#" className="text-gray-300 hover:text-sky-400 transition-colors">
                 <Instagram className="w-5 h-5" />
-              </a>
+              </a> */}
               <a href="#" className="text-gray-300 hover:text-sky-400 transition-colors">
                 <Youtube className="w-5 h-5" />
               </a>
@@ -40,42 +39,51 @@ const Footer = () => {
             <div className="space-y-2">
               <div className="flex items-center space-x-2">
                 <MapPin className="w-4 h-4 text-sky-400" />
-                <span className="text-gray-300 text-sm">123 Faith Street, Gospel City</span>
+                <span className="text-gray-300 text-sm">Located in Busingi-Nyanama, Kampala-Uganda, Gospel Extension Ministries-Church</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4 text-sky-400" />
-                <span className="text-gray-300 text-sm">+1 (555) 123-4567</span>
+                <span className="text-gray-300 text-sm">+256-751-584-016</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4 text-sky-400" />
-                <span className="text-gray-300 text-sm">info@gospelextension.org</span>
+                <span className="text-gray-300 text-sm">hmusana@yahoo.com</span>
               </div>
             </div>
           </div>
 
           {/* Service Times */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Service Times</h3>
+            <h3 className="text-lg font-semibold mb-4">Church Programs</h3>
             <div className="space-y-2 text-gray-300 text-sm">
               <div>
                 <p className="font-medium">Sunday Service</p>
-                <p>10:00 AM - 12:00 PM</p>
+                <p>7AM & 10AM </p>
               </div>
               <div>
-                <p className="font-medium">Wednesday Prayer</p>
-                <p>7:00 PM - 8:30 PM</p>
+                <p className="font-medium">Tuesday Minister's Prayer</p>
+                <p>5:00 PM - 7:00 PM</p>
               </div>
               <div>
-                <p className="font-medium">Friday Bible Study</p>
-                <p>7:00 PM - 9:00 PM</p>
+                <p className="font-medium">Wednesday Prayer </p>
+                <p>5:00 PM - 8:00 PM</p>
               </div>
+                <div>
+                <p className="font-medium">Thursday - Bible Study</p>
+                <p>5:00 PM - 8:00 PM</p>
+              </div>
+               <div>
+                <p className="font-medium">Friday - Missional Commnity Outreaches</p>
+                <p>5:00PM</p>
+              </div>
+
             </div>
           </div>
         </div>
 
         <div className="border-t border-blue-800 mt-8 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            © 2024 Gospel Extension Ministries. All rights reserved. Built with ❤️ for the Kingdom.
+            © 2025 Henry Musana. All rights reserved. Built with ❤️ for the  God's Kingdom.
           </p>
         </div>
       </div>
