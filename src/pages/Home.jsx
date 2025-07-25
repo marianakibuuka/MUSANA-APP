@@ -55,10 +55,11 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Welcome to <span className="text-sky-400">Musana App</span>
+             Welcome 🖐
+              {/* to <span className="text-white-400">Musana App</span> */}
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-gray-300 max-w-3xl mx-auto">
-              Your spiritual companion for accessing sermons, devotions, and staying connected 
+              This is your spiritual companion for accessing sermons, devotions, and staying connected 
               with Gospel Extension Ministries under Pastor Henry Musana's leadership.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

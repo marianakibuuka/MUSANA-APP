@@ -134,13 +134,18 @@ const Events = () => {
               <div className="w-3 h-3 bg-white rounded-full animate-pulse"></div>
               <div>
                 <h3 className="text-lg font-semibold">Live Now: Sunday Worship Service</h3>
-                <p className="text-red-100">Pastor Musana is ministering on "Walking in Faith"</p>
+                <p className="text-red-100">Tune In to Catch Us Live... </p>
               </div>
             </div>
+            <a 
+            href="https://www.youtube.com/@henrymusana/live"
+               target="_blank"
+               rel="noopener noreferrer">
             <button className="bg-white text-red-600 px-6 py-2 rounded-lg font-semibold hover:bg-red-50 transition-colors flex items-center space-x-2">
               <Play className="w-4 h-4" />
               <span>Watch Live</span>
             </button>
+            </a>
           </div>
         </div>
 
@@ -275,9 +280,9 @@ const Events = () => {
             <button className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
               Subscribe to Google Calendar
             </button>
-            <button className="bg-gray-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-700 transition-colors">
+            {/* <button className="bg-gray-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-700 transition-colors">
               Download iCal
-            </button>
+            </button> */}
             <button className="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors">
               Enable Notifications
             </button>

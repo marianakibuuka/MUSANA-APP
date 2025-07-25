@@ -4,22 +4,36 @@ import { Heart, Users, MapPin, Clock, Star, Award, BookOpen, Handshake } from 'l
 const About = () => {
   const leadership = [
     {
-      name: "Pastor Musana",
-      role: "Senior Pastor & Founder",
+      name: "Pastor Henry Musana",
+      role: "Lead Pastor & Founder",
       image: "https://images.pexels.com/photos/8466804/pexels-photo-8466804.jpeg?auto=compress&cs=tinysrgb&w=300",
-      bio: "Pastor Musana has been serving the Lord for over 20 years, leading Gospel Extension Ministries with a heart for evangelism and discipleship. His passion for God's Word and shepherding God's people has touched countless lives."
+      bio: "Pastor Henry Musana, the Lead Pastor at Gem Sanctuary also oversees eight other churches . He travels extensively with a heart for evangelism and discipleship  to strengthen churches His passion for God's Word and shepherding God's people has touched countless lives."
     },
     {
-      name: "Minister Sarah Johnson",
-      role: "Associate Pastor",
+      name: "Pastor Maureen Musana",
+      role: "Associate Relations Pastor",
       image: "https://images.pexels.com/photos/8466825/pexels-photo-8466825.jpeg?auto=compress&cs=tinysrgb&w=300",
-      bio: "Minister Sarah brings a heart for worship and youth ministry, serving alongside Pastor Musana in nurturing the spiritual growth of our congregation."
+      bio: "Pastor Maureen Musana  serves alongside Pastor Henry Musana wwith a heartfelt for evangelism and  as she always brings a heart for intercession into the GEM church through nurturing the spiritual growth of the congregation."
+    },
+
+    {
+      name: "Pastor Kenneth Mukisa",
+      role: "Resident Pastor",
+      image: "https://images.pexels.com/photos/8466825/pexels-photo-8466825.jpeg?auto=compress&cs=tinysrgb&w=300",
+      bio: "Pastor Kenneth Mukisa serves alongside Pastor Henry Musana to envangelise and incharge of several Missional Comminities of GEM church . His unwavering commitment towards ministry and drawn more people spiritually closer to God"
     },
     {
-      name: "Elder David Williams",
+      name: "Elder Andrew Mulondo",
       role: "Church Elder",
       image: "https://images.pexels.com/photos/8466830/pexels-photo-8466830.jpeg?auto=compress&cs=tinysrgb&w=300",
-      bio: "Elder David provides wise counsel and leadership in church governance, supporting the vision of Gospel Extension Ministries."
+      bio: "Elder Andrew provides wise counsel in church governance, supporting the vision of Gospel Extension Ministries."
+    },
+
+    {
+      name: "Pastor Lutalo Joseph Bbosa",
+      role: "Youth Pastor",
+      image: "https://images.pexels.com/photos/8466830/pexels-photo-8466830.jpeg?auto=compress&cs=tinysrgb&w=300",
+      bio: "Pastor Bbosa Joseph serve under the youth Ministry through evangelism and has therefore led many youths to Christ."
     }
   ];
 
@@ -27,7 +41,7 @@ const About = () => {
     {
       icon: Heart,
       title: "Love",
-      description: "We are committed to showing God's love through our actions and words to all people."
+      description: " We love God and We love people..We are committed to showing God's love through our actions and words to all people."
     },
     {
       icon: BookOpen,
@@ -37,7 +51,7 @@ const About = () => {
     {
       icon: Users,
       title: "Community",
-      description: "We believe in the power of fellowship and building strong relationships in Christ."
+      description: "We believe in the power of fellowship and Missional Communities as we build strong relationships with God."
     },
     {
       icon: Handshake,
@@ -55,22 +69,22 @@ const About = () => {
     {
       name: "Youth Ministry",
       description: "Engaging activities and discipleship for young people",
-      time: "Fridays 6:00 PM"
+      time: "program on Calendar"
     },
     {
-      name: "Women's Fellowship",
-      description: "Sisterhood, prayer, and spiritual growth",
-      time: "Saturdays 2:00 PM"
+      name: "Marrieds",
+      description: "Marrieds, prayer, and spiritual growth",
+      time: "To be viewed on Calendar"
     },
     {
-      name: "Men's Brotherhood",
-      description: "Fellowship and accountability for men",
-      time: "Saturdays 7:00 AM"
+      name: "Single's fellowship",
+      description: "Fellowship and accountability for the singles",
+      time: "Program on Calendar"
     },
     {
-      name: "Prayer Ministry",
+      name: "Prayer Ministry (Intercessors)",
       description: "Intercession and spiritual warfare",
-      time: "Wednesdays 7:00 PM"
+      time: "Mondays 7:00 PM"
     },
     {
       name: "Outreach Program",
@@ -89,8 +103,7 @@ const About = () => {
               About Gospel Extension Ministries
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto">
-              Building a community of faith, hope, and love under the leadership of Pastor Musana
-            </p>
+              Extending the Gospel of Jesus Christ to all Nations            </p>
           </div>
         </div>
       </div>
@@ -99,10 +112,9 @@ const About = () => {
       <div className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Mission</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Vision & Mission</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              To spread the Gospel of Jesus Christ, disciple believers, and serve our community 
-              with God's love and compassion.
+              We believe in the Trinity, God the Father, God the Son, and God the Holy Spirit. We also believe in the power of God to perform miracles, signs and wonders.
             </p>
           </div>
 
@@ -117,32 +129,27 @@ const About = () => {
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Story</h3>
               <p className="text-gray-600 mb-6">
-                Gospel Extension Ministries was founded with a vision to reach souls for Christ 
-                and build a strong community of believers. Under Pastor Musana's leadership, 
-                we have grown from a small gathering to a thriving ministry that impacts lives 
-                both locally and globally.
+                 In 2010, Henry and His wife Maureen moved to Nyanama- Kampala to start GEM Sanctuary Nyanama and they have seen tremendous growth and development in the place as peoples's lives are being transformed and this is where God has widened their  vision to plant other churches in different towns.
               </p>
               <p className="text-gray-600 mb-6">
-                Our commitment remains steadfast: to preach the uncompromising Word of God, 
-                provide spiritual guidance, and create an environment where everyone can 
-                experience God's love and grow in their faith journey.
+                Henry Musana has a vision to plant a church in every major city of Uganda and wherever God leads him.
               </p>
               <div className="flex items-center space-x-4 text-sm">
                 <div className="flex items-center space-x-2">
                   <Users className="w-5 h-5 text-blue-600" />
-                  <span>500+ Members</span>
+                  <span>200+ Members</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Award className="w-5 h-5 text-blue-600" />
-                  <span>Est. 2010</span>
+                  <span>started. 2010</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <MapPin className="w-5 h-5 text-blue-600" />
-                  <span>Gospel City</span>
+                  <span>Gospel Extension Ministries </span>
                 </div>
               </div>
             </div>
-          </div>
+          </div> 
         </div>
       </div>
 
@@ -244,19 +251,28 @@ const About = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-blue-800 rounded-lg p-6 text-center">
-              <h3 className="text-xl font-semibold mb-2">Sunday Service</h3>
-              <p className="text-gray-300 mb-2">Main worship service</p>
-              <p className="text-sky-400 font-medium">10:00 AM - 12:00 PM</p>
+              <h3 className="text-xl font-semibold mb-2">Sunday Services</h3>
+
+              <p className="text-gray-300 mb-2">First service</p>
+              <p className="text-sky-400 font-medium"> 7:00AM - 9:30AM</p>
+
+              <p className="text-gray-300 mb-2">Main service</p>
+              <p className="text-sky-400 font-medium"> 10:00AM - 1:00PM</p>
+            </div>
+            <div className="bg-blue-800 rounded-lg p-6 text-center">
+              <h3 className="text-xl font-semibold mb-2"> Tuesday Prayer</h3>
+              <p className="text-gray-300 mb-2">Ministers' prayer meeting</p>
+              <p className="text-sky-400 font-medium">5:00 PM - 7:00 PM</p>
             </div>
             <div className="bg-blue-800 rounded-lg p-6 text-center">
               <h3 className="text-xl font-semibold mb-2">Wednesday Prayer</h3>
-              <p className="text-gray-300 mb-2">Midweek prayer meeting</p>
-              <p className="text-sky-400 font-medium">7:00 PM - 8:30 PM</p>
+              <p className="text-gray-300 mb-2">Midweek Fellowship</p>
+              <p className="text-sky-400 font-medium">5:00 PM - 8:00 PM</p>
             </div>
             <div className="bg-blue-800 rounded-lg p-6 text-center">
-              <h3 className="text-xl font-semibold mb-2">Friday Bible Study</h3>
+              <h3 className="text-xl font-semibold mb-2">Thursday Bible Study</h3>
               <p className="text-gray-300 mb-2">Deep dive into Scripture</p>
-              <p className="text-sky-400 font-medium">7:00 PM - 9:00 PM</p>
+              <p className="text-sky-400 font-medium">5:00 PM - 8:00 PM</p>
             </div>
           </div>
         </div>

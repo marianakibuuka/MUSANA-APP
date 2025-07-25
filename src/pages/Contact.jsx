@@ -76,9 +76,12 @@ const Contact = () => {
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">Address</h3>
                   <p className="text-gray-600">
-                    123 Faith Street<br />
-                    Gospel City, GC 12345<br />
-                    United States
+                    Gospel Extension Ministries-church
+                    Busingiri-Nyanama , Kampala-Uganda
+                     Off Star Rd Street
+                    Opposite Adonai Gardens<br />
+                    <br />
+          
                   </p>
                 </div>
               </div>
@@ -88,11 +91,11 @@ const Contact = () => {
                   <Phone className="w-6 h-6 text-blue-600" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900">Phone</h3>
+                  <h3 className="text-lg font-semibold text-gray-900">Pastor's contact</h3>
                   <p className="text-gray-600">
-                    Main: +1 (555) 123-4567<br />
-                    Pastor's Office: +1 (555) 123-4568<br />
-                    Prayer Line: +1 (555) 123-PRAY
+                    +256-751-584-016<br />
+                 <br />
+                    {/* Prayer Line: +1 (555) 123-PRAY */}
                   </p>
                 </div>
               </div>
@@ -104,9 +107,9 @@ const Contact = () => {
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">Email</h3>
                   <p className="text-gray-600">
-                    General: info@gospelextension.org<br />
-                    Pastor: pastor@gospelextension.org<br />
-                    Prayer: prayer@gospelextension.org
+                     hmusana@yahoo.com
+                    {/* Pastor: pastor@gospelextension.org<br />
+                    Prayer: prayer@gospelextension.org */}
                   </p>
                 </div>
               </div>
@@ -120,7 +123,7 @@ const Contact = () => {
                   <p className="text-gray-600">
                     Monday - Friday: 9:00 AM - 5:00 PM<br />
                     Saturday: 10:00 AM - 2:00 PM<br />
-                    Sunday: After Service - 1:00 PM
+                    Sunday: After each Service - 1:00 PM
                   </p>
                 </div>
               </div>
@@ -136,10 +139,10 @@ const Contact = () => {
                 <a href="#" className="w-10 h-10 bg-sky-500 rounded-lg flex items-center justify-center text-white hover:bg-sky-600 transition-colors">
                   <Twitter className="w-5 h-5" />
                 </a>
-                <a href="#" className="w-10 h-10 bg-pink-500 rounded-lg flex items-center justify-center text-white hover:bg-pink-600 transition-colors">
+                {/* <a href="#" className="w-10 h-10 bg-pink-500 rounded-lg flex items-center justify-center text-white hover:bg-pink-600 transition-colors">
                   <Instagram className="w-5 h-5" />
-                </a>
-                <a href="#" className="w-10 h-10 bg-red-600 rounded-lg flex items-center justify-center text-white hover:bg-red-700 transition-colors">
+                </a> */}
+                <a href="https://www.youtube.com/@henrymusana" className="w-10 h-10 bg-red-600 rounded-lg flex items-center justify-center text-white hover:bg-red-700 transition-colors">
                   <Youtube className="w-5 h-5" />
                 </a>
               </div>

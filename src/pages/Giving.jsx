@@ -337,8 +337,8 @@ const Giving = () => {
                 <div>
                   <h4 className="font-medium text-gray-900">Mail Check</h4>
                   <p className="text-sm text-gray-600">
-                    123 Faith Street<br />
-                    Gospel City, GC 12345
+                    <br />
+                    Gospel Extension Ministries
                   </p>
                 </div>
                 <div>
@@ -348,9 +348,9 @@ const Giving = () => {
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-medium text-gray-900">Text to Give</h4>
+                  <h4 className="font-medium text-gray-900">Merchant code</h4>
                   <p className="text-sm text-gray-600">
-                    Text "GIVE" to (555) 123-GIVE
+                    Dial *185*9# "GIVE" to (4353657), Name & Reason
                   </p>
                 </div>
               </div>
